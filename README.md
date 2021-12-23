@@ -1,5 +1,5 @@
 # CartPole-GA
-> Assignment for university course (EECE 699 - Topics in AI @ AUB) where we have to implement a Genetic Algorithm to solve the Cart-Pole problem.
+> University Assignment (EECE 699 - Topics in AI @ AUB) where we have to implement a Genetic Algorithm to solve the Cart-Pole problem.
 
 ## Data generation
 To generate the data, we ran the environment n_collect times, keeping track of the score and taking random actions. We would keep running this until either we reach our goal_steps or until the environment tells us it is done. If the score acquired is greater than th_score, we would save this game as training data.
