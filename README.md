@@ -7,12 +7,12 @@ To generate the data, we ran the environment n_collect times, keeping track of t
 ## First GA model
 For the first iteration, we were able to generate 2462 training data with an average score of 61: we had specified the threshold score to be 50. With a number of generations equal to 20, we were able to attain an average score of 130 (calculated on 1000 tries), and for the final run that generated the attached video labeled “low”, we achieved a score of 93.
 
-![](low.mp4)
+https://user-images.githubusercontent.com/19833587/147213333-78ce442e-3385-463e-8826-0f4764d63fef.mp4
 
 ## Second GA model
 For the second iteration, we were able to generate 673 training data with an average score of 113: we had specified the threshold score to be 100. With a number of generations equal to 50, we were able to attain an average score of 200 (calculated on 1000 tries), and for the final run that generated the attached video labeled “high”, we achieved a score of 200.
 
-![](high.mp4)
+https://user-images.githubusercontent.com/19833587/147213354-85de6e90-ec67-4d30-98d2-840e30403402.mp4
 
 ## Comparison
 We increased the number of n_collect from 1000 to 10000, th_score from 50 to 100 and num_generations from 20 to 50. This should increase the score that we get since we now have a higher acceptable score, and we will have more generations that would better perform.
